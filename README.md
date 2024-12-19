@@ -1,12 +1,14 @@
 # wordpress
 ## instalation in server
-- ```sudo apt install apache2 php php-mysql libapache2-mod-php wget -y```
-- ```sudo apt install mysql-client```
+- ```sudo apt update -y```
+- ```sudo apt install apache2 php php-mysql mysql-client libapache2-mod-php wget -y```
+- ```sudo systemctl start apache2```
+- ```sudo systemctl enable apache2```
 - ```wget https://wordpress.org/latest.tar.gz```
 - ```tar -xzvf latest.tar.gz```
 - ```sudo mv wordpress /var/www/html/```
 - ```sudo cp /var/www/html/wordpress/wp-config-sample.php```
-- ```/var/www/html/wordpress/wp-config.php```
+- ```cd /var/www/html/wordpress/wp-config.php```
 - ```sudo nano /var/www/html/wordpress/wp-config.php```
 ---
 ## setting on database
