@@ -10,6 +10,7 @@
 - ```sudo cp /var/www/html/wordpress/wp-config-sample.php```
 - ```cd /var/www/html/wordpress/wp-config.php```
 - ```sudo nano /var/www/html/wordpress/wp-config.php```
+-  ```sudo systemctl restart apache2```
 ---
 ## setting on database
 ```sql
@@ -18,5 +19,4 @@
 ( 'DB_PASSWORD', 'your_rds_password' );
 ( 'DB_HOST', 'your_rds_endpoint' ); 
 ```
-- ```sudo systemctl restart apache2```
 ---
