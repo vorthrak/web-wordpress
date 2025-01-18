@@ -15,8 +15,8 @@
 ## setting on database
 ```sql
 ( 'DB_NAME', 'wordpress_db' );
-( 'DB_USER', 'your_rds_username' );
-( 'DB_PASSWORD', 'your_rds_password' );
-( 'DB_HOST', 'your_rds_endpoint' ); 
+( 'DB_USER', 'username' );
+( 'DB_PASSWORD', 'password' );
+( 'DB_HOST', 'endpoint database' ); 
 ```
 ---
