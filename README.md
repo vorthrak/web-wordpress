@@ -1,5 +1,5 @@
 # wordpress
-## instalation in server
+## configuration in server
 - ```sudo apt update -y```
 - ```sudo apt install apache2 php php-mysql mysql-client libapache2-mod-php wget -y```
 - ```sudo systemctl start apache2```
@@ -10,7 +10,7 @@
 - ```sudo cp /var/www/html/wordpress/wp-config-sample.php```
 - ```cd /var/www/html/wordpress/wp-config.php```
 - ```sudo nano /var/www/html/wordpress/wp-config.php```
--  ```sudo systemctl restart apache2```
+- ```sudo systemctl restart apache2```
 ---
 ## setting on database
 ```sql
